@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShootDirArrow
+  m_Shader: {fileID: 4800000, guid: 0da3ebb6e99ae874fbe2769271130d6b, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 333e8a5f9f6bd404db6183e96a987f9f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Map
+        second:
+          m_Texture: {fileID: 2800000, guid: 333e8a5f9f6bd404db6183e96a987f9f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Hue
+        second: 0
+      data:
+        first:
+          name: _HZero
+        second: 0
+      data:
+        first:
+          name: _HRatio
+        second: 0
+      data:
+        first:
+          name: _Chroma
+        second: .5
+      data:
+        first:
+          name: _CZero
+        second: 0
+      data:
+        first:
+          name: _CRatio
+        second: 0
+      data:
+        first:
+          name: _Luma
+        second: .5
+      data:
+        first:
+          name: _LZero
+        second: 0
+      data:
+        first:
+          name: _LRatio
+        second: 1
+      data:
+        first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
+          name: _OffsetY
+        second: 0
+      data:
+        first:
+          name: _TilingY
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
